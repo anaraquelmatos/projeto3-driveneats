@@ -1,0 +1,136 @@
+body {
+    background-color: #E5E5E5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*Parte superior - Barra fixa*/
+header {
+    background-color: rgba(207, 43, 43, 1);
+    box-shadow: 0px 4px 4px 0px rgb(146, 145, 145);
+    height: 92px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    font-family: "Righteous";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: -0.012em;
+    padding: 8px 21px 5px;
+    color: rgba(255, 255, 255, 1);
+}
+
+header h2 {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    padding-left: 21px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*Início - Conteúdo Principal*/
+main {
+    margin-top: 140px;
+    width: 100%;
+    height: calc(1130px - 92px);
+}
+
+main h3 {
+    /*Apagar*/
+    font-family: "Righteous";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    padding: 0 21px 17px;
+}
+
+/*Reunião das opções do menu*/
+.caixa__menu {
+    display: flex;
+    overflow: scroll;
+    padding: 0 19px 27px 7px;
+}
+
+/*Menu individual*/
+.opcoes_menu {
+    background-color: rgba(255, 255, 255, 1);
+    width: 172px;
+    height: 216px;
+    border-radius: 10px;
+    margin-left: 16px;
+}
+
+.opcoes_menu .imagem__menu {
+    width: 144px;
+    height: 87px;
+    margin: 18px 14px 8px 14px;
+    border-radius: 4px;
+}
+
+.opcoes_menu strong p {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    text-align: justify;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 0 14px 0;
+    color: rgba(51, 51, 51, 1);
+}
+
+.opcoes_menu small p {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    padding: 4px 14px 0;
+    color: rgba(166, 166, 166, 1);
+
+}
+
+/*Parte inferior - Barra fixa*/
+footer {
+    background-color: rgba(207, 43, 43, 1);
+    height: 92px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+/*Enquadramento do Botão de submeter o pedido*/
+#submeter__pedido{
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Botão de submeter o pedido*/
+footer button {
+    width: 364px;
+    height: 61px;
+    background-color: #CBCBCB;
+    border: 2px solid #CBCBCB;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.018em;
+    text-align: center;
+}

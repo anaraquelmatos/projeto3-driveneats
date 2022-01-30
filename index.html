@@ -28,16 +28,25 @@
         <!--Início do conjunto do primeiro menu (prato)-->
         <div class="caixa__menu">
             <!--Escolha do menu (prato)-->
-            <div class="opcoes_menu" data-identifier="food-option">
+            
+            <div class="prato1 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato1')">
                 <img class="imagem__menu" src="Imagens/caldo de abobora.jpg" />
                 <strong>
                     <p>Caldo de abóbora</p>
                 </strong>
                 <small>
-                    <p>Caldo acompanhado de ervas aromáticas</p>
+                    <p>Vegetariano com ervas aromáticas</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+
+
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+
+
+            <div class="prato2 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato2')">
                 <img class="imagem__menu" src="Imagens/arroz-com-pequi-4.jpeg" />
                 <strong>
                     <p>Arroz com pequi</p>
@@ -45,26 +54,38 @@
                 <small>
                     <p>Pequi com arroz com alho</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="prato3 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato3')">
                 <img class="imagem__menu" src="Imagens/baiao-de-dois-tradicional1.jpg" />
                 <strong>
                     <p>Baião de dois</p>
                 </strong>
                 <small>
-                    <p>Arroz acompanhado de ovo e carne seca</p>
+                    <p>Arroz com ovo e carne seca</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="prato4 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato4')">
                 <img class="imagem__menu" src="Imagens/escondidinho de frango.jpg" />
                 <strong>
                     <p>Escondidinho</p>
                 </strong>
                 <small>
-                    <p>Escondidinho de frango forrado com purê de batata</p>
+                    <p>Com frango e purê de batata</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="prato5 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato5')">
                 <img class="imagem__menu" src="Imagens/estrogonofe.jpg" />
                 <strong>
                     <p>Estrogonofe</p>
@@ -72,112 +93,163 @@
                 <small>
                     <p>Estrogonofe especial de frango</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="prato6 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato6')">
                 <img class="imagem__menu" src="Imagens/feijoada.jpg" />
                 <strong>
                     <p>Feijoada</p>
                 </strong>
                 <small>
-                    <p>Feijoada completa</p>
+                    <p>Feijoada com acompanhamentos</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="prato7 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato7')">
                 <img class="imagem__menu" src="Imagens/torta de legumes.jpg" />
                 <strong>
                     <p>Torta de legume</p>
                 </strong>
                 <small>
-                    <p>Torta com abobrinha, abóbora e alho poró</p>
+                    <p>Torta especial com alho poró</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="prato8 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato8')">
                 <img class="imagem__menu" src="Imagens/quiche de alho poro.jpg" />
                 <strong>
-                    <p>Quiche de Alho Poró</p>
+                    <p>Quiche</p>
                 </strong>
                 <small>
-                    <p>Quiche acompanhada de ervas</p>
+                    <p>Abobrinha com alho poró</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
         </div>
+
+
         <!--Segunda Parte-->
         <h3>Agora, sua bebida</h3>
         <!--Início do conjunto do segundo menu (bebida)-->
         <div class="caixa__menu">
             <!--Escolha do menu (bebida)-->
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu bebida_selecionada bebida1" data-identifier="food-option" onclick="selecionarBebida('bebida1')">
                 <img class="imagem__menu" src="Imagens/coca cola.jpg" />
                 <strong>
                     <p>Coca-Cola</p>
                 </strong>
                 <small>
-                    <p>Garrafa de 250ml</p>
+                    <p>Garrafa de 250ml - Gelada</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu bebida_selecionada bebida2" data-identifier="food-option" onclick="selecionarBebida('bebida2')">
                 <img class="imagem__menu" src="Imagens/fanta.jpg" />
                 <strong>
                     <p>Fanta</p>
                 </strong>
                 <small>
-                    <p>Garrafa de 250ml</p>
+                    <p>Garrafa de 250ml - Gelada</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu bebida_selecionada bebida3" data-identifier="food-option" onclick="selecionarBebida('bebida3')">
                 <img class="imagem__menu" src="Imagens/sprite.jpg" />
                 <strong>
                     <p>Sprite</p>
                 </strong>
                 <small>
-                    <p>Garrafa de 250ml</p>
+                    <p>Garrafa de 250ml - Gelada</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu bebida_selecionada bebida4" data-identifier="food-option" onclick="selecionarBebida('bebida4')">
                 <img class="imagem__menu" src="Imagens/guarana.png" />
                 <strong>
                     <p>Guaraná</p>
                 </strong>
                 <small>
-                    <p>Garrafa de 1L</p>
+                    <p>Garrafa de 1L - Gelada</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu bebida_selecionada bebida5" data-identifier="food-option" onclick="selecionarBebida('bebida5')">
                 <img class="imagem__menu" src="Imagens/suco de laranja.jpg" />
                 <strong>
                     <p>Suco de laranja</p>
                 </strong>
                 <small>
-                    <p>Garrafa de 200ml</p>
+                    <p>Garrafa de 200ml - Gelada</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu bebida_selecionada bebida6" data-identifier="food-option" onclick="selecionarBebida('bebida6')">
                 <img class="imagem__menu" src="Imagens/suco de uva.jpg" />
                 <strong>
                     <p>Suco de uva</p>
                 </strong>
                 <small>
-                    <p>Garrafa de 200ml</p>
+                    <p>Garrafa de 200ml - Gelado</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu bebida_selecionada bebida7" data-identifier="food-option" onclick="selecionarBebida('bebida7')">
                 <img class="imagem__menu" src="Imagens/suco de goiaba.jpg" />
                 <strong>
                     <p>Suco de goiaba</p>
                 </strong>
                 <small>
-                    <p>Garrafa de 200ml</p>
+                    <p>Garrafa de 200ml - Gelado</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu bebida_selecionada bebida8" data-identifier="food-option" onclick="selecionarBebida('bebida8')">
                 <img class="imagem__menu" src="Imagens/água.jpg" />
                 <strong>
                     <p>Água</p>
                 </strong>
                 <small>
-                    <p>Garrafa de 1L</p>
+                    <p>Garrafa de 1L - Gelado</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
+
 
         </div>
         <!--Terceira Parte-->
@@ -185,25 +257,33 @@
         <!--Início do conjunto do terceiro menu (sobremesa)-->
         <div class="caixa__menu">
             <!--Escolha do menu (sobremesa)-->
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu sobremesa1 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa1')">
                 <img class="imagem__menu" src="Imagens/petit gateau.jpg" />
                 <strong>
                     <p>Petit Gateau</p>
                 </strong>
                 <small>
-                    <p>Acompanhado de sorvete de baunilha</p>
+                    <p>Com sorvete de baunilha</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu sobremesa2 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa2')">
                 <img class="imagem__menu" src="Imagens/sorvete de pitaya.jpg" />
                 <strong>
                     <p>Sorvete de Pitaya</p>
                 </strong>
                 <small>
-                    <p>Pedaços da fruta</p>
+                    <p>Pedaços da fruta e sem conservantes</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu sobremesa3 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa3')">
                 <img class="imagem__menu" src="Imagens/tiramisu.jpg" />
                 <strong>
                     <p>Tiramisu</p>
@@ -211,26 +291,38 @@
                 <small>
                     <p>Versão originalmente italiana</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu sobremesa4 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa4')">
                 <img class="imagem__menu" src="Imagens/cocada.jpg" />
                 <strong>
                     <p>Cocada branca</p>
                 </strong>
                 <small>
-                    <p>2 pedaços</p>
+                    <p>Doce totalmente caseiro</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu sobremesa5 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa5')">
                 <img class="imagem__menu" src="Imagens/torta de maça.jpg" />
                 <strong>
                     <p>Torta de maçã</p>
                 </strong>
                 <small>
-                    <p>Pedaços da fruta</p>
+                    <p>Torta com pedaços da fruta</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu sobremesa6 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa6')">
                 <img class="imagem__menu" src="Imagens/bolo de chocolate.jpg" />
                 <strong>
                     <p>Bolo de chocolate</p>
@@ -238,24 +330,36 @@
                 <small>
                     <p>Recheado com creme de nozes</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu sobremesa7 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa7')">
                 <img class="imagem__menu" src="Imagens/doce de leite.jpg" />
                 <strong>
                     <p>Doce de leite</p>
                 </strong>
                 <small>
-                    <p>Doce pastoso</p>
+                    <p>Doce pastoso totalmente vegano</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
-            <div class="opcoes_menu" data-identifier="food-option">
+            <div class="opcoes_menu sobremesa8 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa8')">
                 <img class="imagem__menu" src="Imagens/cookies de chocolate.jpg" />
                 <strong>
                     <p>Cookies</p>
                 </strong>
                 <small>
-                    <p>Gotas de chocolate</p>
+                    <p>Crocante e com gotas de chocolate</p>
                 </small>
+                <div class="parteinferior__opcoesmenu">
+                    <p>R$14,00</p>
+                    <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
             </div>
     </main>
 
@@ -263,9 +367,10 @@
     <footer>
         <!--Botão de enviar o pedido-->
         <div id="submeter__pedido">
-            <button type="submit">Selecione os 3 itens <br> para fechar o pedido</button>
+            <button id="envio__pedido" onclick="finalizarPedido()">Selecione os 3 itens <br> para fechar o pedido</button>
         </div>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script src="script.js"></script>
 
 </body>

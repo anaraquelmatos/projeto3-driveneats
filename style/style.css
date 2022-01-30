@@ -9,12 +9,13 @@ body {
 /*Parte superior - Barra fixa*/
 header {
     background-color: rgba(207, 43, 43, 1);
-    box-shadow: 0px 4px 4px 0px rgb(146, 145, 145);
+    box-shadow: 0px 4px 4px 0px rgb(195, 195, 195);
     height: 92px;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 header h1 {
@@ -59,23 +60,57 @@ main h3 {
 /*Reunião das opções do menu*/
 .caixa__menu {
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
     padding: 0 19px 27px 7px;
 }
-
+.caixa__menu ion-icon{
+    color:white;
+    background-color:white;
+    border-radius: 50%;
+    font-size: 20px;
+ 
+}
 /*Menu individual*/
+.caixa__menu .selecionado {
+    border: 6px solid #32B72F;
+}
+.caixa__menu .selecionado ion-icon{
+   color:white;
+   background-color:#32B72F;
+   border-radius: 50%;
+   font-size: 16px;
+}
+.caixa__menu  .selecionado2 {
+    border: 6px solid #32B72F;
+}
+.caixa__menu  .selecionado2 ion-icon{
+   color:white;
+   background-color:#32B72F;
+   border-radius: 50%;
+   font-size: 16px;
+}
+.caixa__menu  .selecionado3 {
+    border: 6px solid #32B72F;
+}
+.caixa__menu  .selecionado3 ion-icon{
+   color:white;
+   background-color:#32B72F;
+   border-radius: 50%;
+   font-size: 16px;
+}
 .opcoes_menu {
     background-color: rgba(255, 255, 255, 1);
     width: 172px;
     height: 216px;
-    border-radius: 10px;
+    border-radius: 9px;
     margin-left: 16px;
+    border: 6px solid rgba(255, 255, 255, 1);
 }
 
 .opcoes_menu .imagem__menu {
     width: 144px;
     height: 87px;
-    margin: 18px 14px 8px 14px;
+    margin: 10px 8px;
     border-radius: 4px;
 }
 
@@ -86,7 +121,7 @@ main h3 {
     text-align: justify;
     font-weight: 700;
     line-height: 19px;
-    padding: 0 14px 0;
+    padding: 0 9px 0;
     color: rgba(51, 51, 51, 1);
 }
 
@@ -94,11 +129,35 @@ main h3 {
     font-family: "Roboto";
     font-size: 15px;
     font-style: normal;
+    text-align: left;
     font-weight: 300;
     line-height: 18px;
-    padding: 4px 14px 0;
+    padding: 4px 9px 0;
     color: rgba(166, 166, 166, 1);
+}
 
+.parteinferior__opcoesmenu {
+    width: 142px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 7px 11px 13px;
+
+
+}
+
+.parteinferior__opcoesmenu p {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+/*Imagem check js*/
+/*.parteinferior__opcoesmenu .check{
+    display: none;
 }
 
 /*Parte inferior - Barra fixa*/
@@ -109,15 +168,17 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    position: fixed;
+    z-index: 1;
 }
+
 /*Enquadramento do Botão de submeter o pedido*/
-#submeter__pedido{
+#submeter__pedido {
     height: 92px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /*Botão de submeter o pedido*/
 footer button {
     width: 364px;

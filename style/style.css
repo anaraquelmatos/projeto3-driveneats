@@ -136,6 +136,10 @@ main h3 {
     color: rgba(166, 166, 166, 1);
 }
 
+.opcoes_menu .sombra {
+    box-shadow: 0px 4px 4px 0px rgb(195, 195, 195);
+}
+
 .parteinferior__opcoesmenu {
     width: 142px;
     height: 10%;
@@ -180,7 +184,7 @@ footer {
 }
 
 /*Botão de submeter o pedido*/
-footer button {
+footer #envio__pedido {
     width: 364px;
     height: 61px;
     background-color: #CBCBCB;

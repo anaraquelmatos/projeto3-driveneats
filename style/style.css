@@ -73,6 +73,7 @@ main h3 {
 /*Menu individual*/
 .caixa__menu .selecionado {
     border: 6px solid #32B72F;
+    box-shadow: 0px 4px 4px 0px rgb(180, 180, 180);
 }
 .caixa__menu .selecionado ion-icon{
    color:white;
@@ -82,6 +83,7 @@ main h3 {
 }
 .caixa__menu  .selecionado2 {
     border: 6px solid #32B72F;
+    box-shadow: 0px 4px 4px 0px rgb(180, 180, 180);
 }
 .caixa__menu  .selecionado2 ion-icon{
    color:white;
@@ -91,6 +93,7 @@ main h3 {
 }
 .caixa__menu  .selecionado3 {
     border: 6px solid #32B72F;
+    box-shadow: 0px 4px 4px 0px rgb(180, 180, 180);
 }
 .caixa__menu  .selecionado3 ion-icon{
    color:white;
@@ -136,10 +139,6 @@ main h3 {
     color: rgba(166, 166, 166, 1);
 }
 
-.opcoes_menu .sombra {
-    box-shadow: 0px 4px 4px 0px rgb(195, 195, 195);
-}
-
 .parteinferior__opcoesmenu {
     width: 142px;
     height: 10%;
@@ -157,11 +156,6 @@ main h3 {
     font-style: normal;
     font-weight: 400;
     line-height: 19px;
-}
-
-/*Imagem check js*/
-/*.parteinferior__opcoesmenu .check{
-    display: none;
 }
 
 /*Parte inferior - Barra fixa*/

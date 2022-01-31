@@ -21,12 +21,16 @@
         <h1>DrivenEats</h1>
         <h2>Sua comida em 6 minutos</h2>
     </header>
+
     <!--Início do conteúdo principal-->
     <main>
+
         <!--Primeira Parte-->
         <h3>Primeiro, seu prato</h3>
+
         <!--Início do conjunto do primeiro menu (prato)-->
         <div class="caixa__menu" data-identifier="dishes">
+
             <!--Escolha do menu (prato)-->
             
             <div class="prato1 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato1')" onclick="finalizarPedido()">
@@ -44,8 +48,6 @@
 
                 </div>
             </div>
-
-
             <div class="prato2 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato2')">
                 <img class="imagem__menu" src="Imagens/arroz-com-pequi-4.jpeg" />
                 <strong>
@@ -249,9 +251,10 @@
                     <ion-icon name="checkmark-outline"></ion-icon>
                 </div>
             </div>
-
-
         </div>
+
+
+
         <!--Terceira Parte-->
         <h3>Por fim, sua sobremesa</h3>
         <!--Início do conjunto do terceiro menu (sobremesa)-->
@@ -362,11 +365,12 @@
                 </div>
             </div>
     </main>
+  
     <!--Barra Inferior (fixa)-->
     <footer>
         <!--Botão de enviar o pedido-->
         <div id="submeter__pedido">
-            <button id="envio__pedido" onclick="finalizarPedido()">Selecione os 3 itens <br> para fechar o pedido</button>
+            <button id="envio__pedido" onclick="finalizarPedido()">Selecione os 3 itens para fechar o pedido</button>
         </div>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

@@ -1,6 +1,10 @@
 let prato = "";
 let bebida = "";
 let sobremesa = "";
+let preco_prato;
+let preco_bebida;
+let preco_sobremesa;
+let soma;
 
 
 /*Seleção do prato escolhido*/
@@ -78,93 +82,119 @@ function finalizarPedido() {
 
         if (prato === "prato1") {
             prato = "Caldo de abóbora";
+            preco_prato = 8.00;
         }
         if (prato === "prato2") {
             prato = "Arroz com pequi";
+            preco_prato = 11.00;
         }
         if (prato === "prato3") {
             prato = "Baião de dois";
+            preco_prato = 14.00;
         }
         if (prato === "prato4") {
             prato = "Escondidinho";
+            preco_prato = 12.00;
         }
         if (prato === "prato5") {
             prato = "Estrogonofe";
+            preco_prato = 10.00;
         }
         if (prato === "prato6") {
             prato = "Feijoada";
+            preco_prato = 20.00;
         }
         if (prato === "prato7") {
             prato = "Torta de legumes";
+            preco_prato = 5.00;
         }
         if (prato === "prato8") {
             prato = "Quiche";
+            preco_prato = 7.00;
         }
 
         if (bebida === "bebida1") {
             bebida = "Coca-Cola";
+            preco_bebida = 6.00;
         }
         if (bebida === "bebida2") {
             bebida = "Fanta";
+            preco_bebida = 4.00;
         }
         if (bebida === "bebida3") {
             bebida = "Sprite";
+            preco_bebida = 3.50;
         }
         if (bebida === "bebida4") {
             bebida = "Guaraná";
+            preco_bebida = 8.00;
         }
         if (bebida === "bebida5") {
             bebida = "Suco de laranja";
+            preco_bebida = 9.00;
         }
         if (bebida === "bebida6") {
             bebida = "Suco de uva";
+            preco_bebida = 2.50;
         }
         if (bebida === "bebida7") {
             bebida = "Suco de goiaba";
+            preco_bebida = 2.40;
         }
         if (bebida === "bebida8") {
             bebida = "Água";
+            preco_bebida = 5.50;
         }
 
         if (sobremesa === "sobremesa1") {
             sobremesa = "Petit Gateau";
+            preco_sobremesa = 14.00;
         }
         if (sobremesa === "sobremesa2") {
             sobremesa = "Sorvete de Pitaya";
+            preco_sobremesa = 10.00;
         }
 
         if (sobremesa === "sobremesa3") {
             sobremesa = "Tiramisu";
+            preco_sobremesa = 17.00;
         }
         if (sobremesa === "sobremesa4") {
             sobremesa = "Cocada branca";
+            preco_sobremesa = 4.00;
         }
         if (sobremesa === "sobremesa5") {
             sobremesa = "Torta de maçã";
+            preco_sobremesa = 8.00;
         }
 
         if (sobremesa === "sobremesa6") {
             sobremesa = "Bolo de chocolate";
+            preco_sobremesa = 5.50;
         }
 
         if (sobremesa === "sobremesa7") {
             sobremesa = "Doce de leite";
+            preco_sobremesa = 9.60;
         }
 
         if (sobremesa === "sobremesa8") {
             sobremesa = "Cookies";
+            preco_sobremesa = 11.10;
         }
 
         let mensagem;
+        soma = preco_prato + preco_bebida + preco_sobremesa;
+
         mensagem = "Olá, gostaria de fazer o pedido: \r\n"
             + "- Prato: " + prato + "\r\n"
             + "- Bebida: " + bebida + "\r\n"
             + "- Sobremesa: " + sobremesa + "\r\n"
-            + " Total: R$";
+            + "Total: R$ " + soma.toFixed(2).replace('.',',');
 
         mensagem = window.encodeURIComponent(mensagem);
 
-        window.open("https://wa.me/+5538999999999?text=" + mensagem);
+        window.open("https://wa.me/+5599999999999?text=" + mensagem);
     }
 }
 

@@ -4,6 +4,8 @@ body {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /*Parte superior - Barra fixa*/
@@ -25,7 +27,7 @@ header h1 {
     font-weight: 400;
     line-height: 55px;
     letter-spacing: -0.012em;
-    padding: 8px 21px 5px;
+    padding: 8px 21px 0;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -36,18 +38,18 @@ header h2 {
     font-weight: 400;
     line-height: 21px;
     padding-left: 21px;
+    margin-top:-5px;
     color: rgba(255, 255, 255, 1);
 }
 
 /*Início - Conteúdo Principal*/
 main {
-    margin-top: 140px;
+    margin-top: 123px;
     width: 100%;
-    height: calc(1130px - 92px);
+    height: calc(207vh - 120px);
 }
 
 main h3 {
-    /*Apagar*/
     font-family: "Righteous";
     font-size: 26px;
     font-style: normal;
@@ -62,6 +64,7 @@ main h3 {
     display: flex;
     overflow-x: scroll;
     padding: 0 19px 27px 7px;
+    margin-bottom: 27px;
 }
 .caixa__menu ion-icon{
     color:white;
@@ -160,7 +163,7 @@ main h3 {
 
 /*Parte inferior - Barra fixa*/
 footer {
-    background-color: rgba(207, 43, 43, 1);
+    background-color: #FFFFFF;;
     height: 92px;
     width: 100%;
     position: fixed;

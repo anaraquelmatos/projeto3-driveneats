@@ -7,6 +7,7 @@ let preco_sobremesa;
 let soma;
 
 
+
 /*Seleção do prato escolhido*/
 function selecionarMenu(classeBotao) {
     const selecionado = document.querySelector(".selecionado");
@@ -50,6 +51,7 @@ function selecionarBebida(classeBotao2) {
         document.getElementById("envio__pedido").style.backgroundColor = "rgba(50, 183, 47, 1";
         document.getElementById("envio__pedido").style.borderColor = "rgba(50, 183, 47, 1";
         document.getElementById("envio__pedido").style.fontWeight = "700";
+
     }
 }
 
@@ -73,10 +75,24 @@ function selecionarSobremesa(classeBotao3) {
         document.getElementById("envio__pedido").style.backgroundColor = "rgba(50, 183, 47, 1";
         document.getElementById("envio__pedido").style.borderColor = "rgba(50, 183, 47, 1";
         document.getElementById("envio__pedido").style.fontWeight = "700";
+
     }
+
 }
 
+
+/*Função para o nome dos itens escolhidos e atribuição do valor a ser pago*/
 function finalizarPedido() {
+    let nome_usuario = "";
+    let endereco_usuario = "";
+
+    /*Pedido de nome e endereço do usuário*/
+    if ((prato !== "") && (bebida !== "") && (sobremesa !== "")) {
+
+        nome_usuario = prompt("Olá! Qual o seu nome?");
+        endereco_usuario = prompt("Qual o seu endereço?");
+
+    }
 
     if ((prato !== "") && (bebida !== "") && (sobremesa !== "")) {
 
@@ -183,6 +199,7 @@ function finalizarPedido() {
             preco_sobremesa = 11.10;
         }
 
+        /*Mensagem para o whatsapp*/
         let mensagem;
         soma = preco_prato + preco_bebida + preco_sobremesa;
 
@@ -190,14 +207,17 @@ function finalizarPedido() {
             + "- Prato: " + prato + "\r\n"
             + "- Bebida: " + bebida + "\r\n"
             + "- Sobremesa: " + sobremesa + "\r\n"
-            + "Total: R$ " + soma.toFixed(2).replace('.',',');
+            + "Total: R$ " + soma.toFixed(2).replace('.', ',')
+            + "\r\n\r\n"
+            + "Nome: " + nome_usuario + "\r\n"
+            + "Endereço: " + endereco_usuario;
 
         mensagem = window.encodeURIComponent(mensagem);
 
         window.open("https://wa.me/+5599999999999?text=" + mensagem);
+
     }
 }
-
 
 
 

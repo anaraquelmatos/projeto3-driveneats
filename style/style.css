@@ -38,7 +38,7 @@ header h2 {
     font-weight: 400;
     line-height: 21px;
     padding-left: 21px;
-    margin-top:-5px;
+    margin-top: -5px;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -46,7 +46,7 @@ header h2 {
 main {
     margin-top: 123px;
     width: 100%;
-    height: calc(207vh - 120px); 
+    height: calc(207vh - 120px);
 }
 
 main h3 {
@@ -67,44 +67,52 @@ main h3 {
     margin-bottom: 27px;
 
 }
-.caixa__menu ion-icon{
-    color:white;
-    background-color:white;
+
+.caixa__menu ion-icon {
+    color: white;
+    background-color: white;
     border-radius: 50%;
     font-size: 20px;
- 
+
 }
-/*Menu individual*/
+
+/*Menu individual (por item) */
 .caixa__menu .selecionado {
     border: 6px solid #32B72F;
     box-shadow: 0px 4px 4px 0px rgb(180, 180, 180);
 }
-.caixa__menu .selecionado ion-icon{
-   color:white;
-   background-color:#32B72F;
-   border-radius: 50%;
-   font-size: 16px;
+
+.caixa__menu .selecionado ion-icon {
+    color: white;
+    background-color: #32B72F;
+    border-radius: 50%;
+    font-size: 16px;
 }
-.caixa__menu  .selecionado2 {
+
+.caixa__menu .selecionado2 {
     border: 6px solid #32B72F;
     box-shadow: 0px 4px 4px 0px rgb(180, 180, 180);
 }
-.caixa__menu  .selecionado2 ion-icon{
-   color:white;
-   background-color:#32B72F;
-   border-radius: 50%;
-   font-size: 16px;
+
+.caixa__menu .selecionado2 ion-icon {
+    color: white;
+    background-color: #32B72F;
+    border-radius: 50%;
+    font-size: 16px;
 }
-.caixa__menu  .selecionado3 {
+
+.caixa__menu .selecionado3 {
     border: 6px solid #32B72F;
     box-shadow: 0px 4px 4px 0px rgb(180, 180, 180);
 }
-.caixa__menu  .selecionado3 ion-icon{
-   color:white;
-   background-color:#32B72F;
-   border-radius: 50%;
-   font-size: 16px;
+
+.caixa__menu .selecionado3 ion-icon {
+    color: white;
+    background-color: #32B72F;
+    border-radius: 50%;
+    font-size: 16px;
 }
+
 .opcoes_menu {
     background-color: rgba(255, 255, 255, 1);
     width: 172px;
@@ -162,9 +170,10 @@ main h3 {
     line-height: 19px;
 }
 
+
 /*Parte inferior - Barra fixa*/
 footer {
-    background-color: #FFFFFF;;
+    background-color: #FFFFFF;
     height: 92px;
     width: 100%;
     position: fixed;
@@ -199,4 +208,5 @@ footer #envio__pedido {
     line-height: 23px;
     letter-spacing: 0.018em;
     text-align: center;
+
 }

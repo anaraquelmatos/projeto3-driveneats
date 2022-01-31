@@ -26,13 +26,13 @@
     <main>
 
         <!--Primeira Parte-->
+        
         <h3>Primeiro, seu prato</h3>
 
         <!--Início do conjunto do primeiro menu (prato)-->
         <div class="caixa__menu" data-identifier="dishes">
 
-            <!--Escolha do menu (prato)-->
-            
+            <!--Escolha do menu (prato)-->         
             <div class="prato1 prato_selecionado opcoes_menu" data-identifier="food-option" onclick="selecionarMenu('prato1')" onclick="finalizarPedido()">
                 <img class="imagem__menu" src="Imagens/caldo de abobora.jpg" />
                 <strong>
@@ -143,6 +143,7 @@
 
 
         <!--Segunda Parte-->
+
         <h3>Agora, sua bebida</h3>
         <!--Início do conjunto do segundo menu (bebida)-->
         <div class="caixa__menu" data-identifier="drinks">
@@ -256,9 +257,11 @@
 
 
         <!--Terceira Parte-->
+
         <h3>Por fim, sua sobremesa</h3>
         <!--Início do conjunto do terceiro menu (sobremesa)-->
         <div class="caixa__menu" data-identifier="desserts">
+
             <!--Escolha do menu (sobremesa)-->
             <div class="opcoes_menu sobremesa1 sobremesa_selecionada" data-identifier="food-option" onclick="selecionarSobremesa('sobremesa1')">
                 <img class="imagem__menu" src="Imagens/petit gateau.jpg" />
@@ -365,12 +368,13 @@
                 </div>
             </div>
     </main>
-  
+
     <!--Barra Inferior (fixa)-->
     <footer>
+
         <!--Botão de enviar o pedido-->
         <div id="submeter__pedido">
-            <button id="envio__pedido" onclick="finalizarPedido()">Selecione os 3 itens para fechar o pedido</button>
+            <button id="envio__pedido" onclick="finalizarPedido()" >Selecione os 3 itens para fechar o pedido</button> <!--/**/-->
         </div>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
